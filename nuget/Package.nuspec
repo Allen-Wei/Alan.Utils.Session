@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Alan.Utils.Session</id>
+    <version>0.0.1</version>
+    <authors>Alan</authors>
+    <owners>Alan</owners>
+    <licenseUrl>https://github.com/Allen-Wei/Alan.Utils.Session</licenseUrl>
+    <projectUrl>https://github.com/Allen-Wei/Alan.Utils.Session</projectUrl>
+    <iconUrl>https://avatars0.githubusercontent.com/u/2927578</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>.Net Singleton Session</description>
+    <releaseNotes>.Net Singleton Session</releaseNotes>
+    <copyright>Copyright 2015</copyright>
+    <tags>.Net C#</tags>
+    <dependencies>
+		<!--<dependency id="SampleDependency" version="1.0" />-->
+    </dependencies>
+
+  </metadata>
+  <files>
+	  <file src="..\Alan.Utils.Session\bin\Alan.Utils.Session.dll" target="lib\net40\Alan.Utils.Session.dll" />
+	  <file src="..\Alan.Utils.Session\bin\Alan.Utils.Session.XML" target="lib\net40\Alan.Utils.Session.XML" />
+	  <file src="..\Alan.Utils.Session\bin\Alan.Utils.Session.pdb" target="lib\net40\Alan.Utils.Session.pdb" />
+  </files>
+</package>

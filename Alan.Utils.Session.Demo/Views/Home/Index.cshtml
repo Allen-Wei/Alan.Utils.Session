@@ -1,0 +1,33 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+
+    </div>
+
+    <script>
+        function Send(header) {
+            var xhr = new XMLHttpRequest();
+            xhr.open("GET", "/Api/Test");
+            xhr.setRequestHeader("X-Token", header);
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState === 4 && xhr.status === 200) {
+                    console.log(xhr.responseText);
+                }
+            };
+            xhr.send();
+        }
+    </script>
+
+</body>
+</html>
